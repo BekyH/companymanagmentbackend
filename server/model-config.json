@@ -1,0 +1,37 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "companies": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "Account": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "AccessToken": {
+    "dataSource": "Mongodb",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "Mongodb",
+    "public": false
+  },
+  
+  "container": {
+    "dataSource": "local-storage",
+    "public": true
+  }
+}

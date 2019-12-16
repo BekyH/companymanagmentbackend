@@ -1,0 +1,19 @@
+{
+  "mongodb": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "organizations",
+    "password": "",
+    "name": "mongodb",
+    "user": "",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  },
+  "local-storage": {
+    "name": "local-storage",
+    "connector": "loopback-component-storage",
+    "provider":"filesystem",
+    "root":"./server/local-storage"
+  }
+}
