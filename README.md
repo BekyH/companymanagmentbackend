@@ -1,0 +1,1 @@
+companymanagmentbackend his is loopback based api which its front end is built using vue which is located at https://github.com/BekyH/companyManagment and you have to install the dependencies using npm install
